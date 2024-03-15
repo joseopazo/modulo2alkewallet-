@@ -1,0 +1,266 @@
+/*contenido Getstarted*/
+
+.contenidoPrincipalGetSarted {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(3, 50, 50);
+  height: 610px;
+}
+
+#tituloAlkeWallet {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+}
+
+#imgGetstarted {
+  width: 500px;
+  padding-bottom: 20px;
+}
+
+#parrafoGetStarted {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-size: 40px;
+  color: beige;
+}
+
+#tituloButon {
+  font-family: "Nunito Sans";
+  font-optical-sizing: auto;
+  color: rgb(255, 255, 255);
+}
+
+.ov-btn-slide-top {
+  background: #0a9113; /* color de fondo */
+  color: #4741d7; /* color de fuente */
+  border: 1px solid #8a8282; /* tamaño y color de borde */
+  padding: 10px 20px;
+  border-radius: 10px; /* redondear bordes */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+}
+.ov-btn-slide-top:hover {
+  color: #000000; /* color de fuente hover */
+}
+.ov-btn-slide-top::after {
+  content: "";
+  background: #b21212; /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 5px 20px;
+  display: block;
+  left: 0;
+  right: 0;
+  top: -100%;
+  bottom: 100%;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.ov-btn-slide-top:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+/* fin contenido Getstarted*/
+
+/* nicio secion*/
+
+#contenidoForm {
+  background-color: rgb(3, 50, 50);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 600px;
+}
+
+.tituloLogin {
+  text-align: center;
+  background-color: rgb(3, 50, 50);
+  color: white;
+  margin-top: 70px;
+}
+
+form {
+  margin-top: 40px;
+}
+
+#loginForm {
+  border: solid 1px white;
+  height: 283px;
+  width: 680px;
+  margin-top: 33px;
+  border-radius: 10px;
+}
+
+.form-control {
+  width: 600px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+#pass {
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.tituloLogin {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "wdth" 800;
+}
+
+/* fin inicio secion*/
+
+/* inicio menu*/
+
+
+#menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    
+}
+
+.centralmenu{
+    background-color:rgb(3, 50, 50) ;
+    height: 612px;
+}
+.titulomenu{
+    color: white;
+}
+#menu a{
+    font-size: 16px;
+   
+}
+
+/* fin  inicio menu*/
+/*  inicio deposito*/
+
+#principalDeposito{
+background-color:rgb(3, 50, 50) ;
+height: 612px;
+color: white;
+}
+.depeosito{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+  
+}
+
+.textoSecundarioDeposit{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 10px;
+    background-color: #000000;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    margin-bottom:50px ;
+ }
+
+ #lavel1{
+    padding: 10px;
+    font-size: 20px;
+ }
+
+ #depositBtn{
+    margin-right: 20px;
+ }
+
+ #amount{
+    margin-right: 10px;
+
+ }
+ #withdrawBtn{
+    width: 90px;
+    height: 40px;
+ 
+ }
+
+ .saldoText{
+    font-size: 25px;
+ }
+
+ #balance{
+    font-size:20px ;
+ }
+
+ /* fin  deposito*/
+
+ /* inicio agregar Contact*/
+ 
+ .agregarContactPricipal{
+    background-color:rgb(3, 50, 50) ;
+    height: 600px;
+    color: white;
+    padding: 0px;
+
+}
+
+.tituloAgregarContact{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+label{
+    margin-left: 20px;
+    padding: 5px;
+}
+
+#contactForm{
+
+    margin-top: 0px;
+}
+
+#buttonContact{
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+}
+
+ /* fin agregar Contact*/
+
+ /* inicio movimientos*/
+
+#ultimosMoviemintosCebtral{
+
+    background-color:rgb(3, 50, 50) ;
+
+}
+
+#tituloUltimosMovimientos{
+    color: white;
+    font-size: 50px;
+}
